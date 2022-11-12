@@ -1,0 +1,24 @@
+
+Name: Manuel
+Second Name: Reino
+Age: 29 years old
+Salary: 23000€
+
+
+Name: Mireya
+Second Name: Lopez
+Age: 28 years old
+Salary: 20000€
+
+
+Name: Jose Antonio
+Second Name: Martinez Garcia
+Age: 27 years old
+Salary: 32000€
+
+
+Name: Maria Dolores
+Second Name: Diez Yañez
+Age: 60 years old
+Salary: 98000€
+
