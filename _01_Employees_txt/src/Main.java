@@ -12,7 +12,7 @@ public class Main {
         System.out.println(manu.toString());
         System.out.println(mire.toString());
 
-        File employeesFile = new File("employees.txt");
+        File employeesFile = new File("_01_Employees_txt/employees.txt");
         if(employeesFile.createNewFile()){
             System.out.println("File was successfully created");
         }

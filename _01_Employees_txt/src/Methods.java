@@ -25,7 +25,7 @@ public class Methods{
         public static String[] introduce(String type){
 
             String[] data = new String[4];
-
+            boolean numeric = false;
             Scanner scanner2 = new Scanner(System.in);
 
             System.out.print("Please introduce the "+type+"`s name: ");
@@ -36,14 +36,22 @@ public class Methods{
             String secondName = scanner2.nextLine();
             data[1] = secondName;
 
-            System.out.print("Please introduce the "+type+"`s age: ");
-            String age = scanner2.nextLine();
-            data[2] = age;
+            while(!numeric) {
+                System.out.print("Please introduce the " + type + "`s age: ");
+                String age = scanner2.nextLine();
+                if(age>=16 && age<=100){}
+                numeric = isNumeric(age);
+                data[2] = age;
+            }
 
-            System.out.print("Please introduce the "+type+"`s salary: ");
-            String salary = scanner2.nextLine();
-            data[3] = salary;
+            numeric=false;
 
+            while(!numeric) {
+                System.out.print("Please introduce the " + type + "`s salary: ");
+                String salary = scanner2.nextLine();
+                numeric = isNumeric(salary);
+                data[3] = salary;
+            }
             return data;
         }
 
