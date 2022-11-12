@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SmallProyects.iml" filepath="$PROJECT_DIR$/SmallProyects.iml" />
       <module fileurl="file://$PROJECT_DIR$/_01_Employees_txt/_01_Employees_txt.iml" filepath="$PROJECT_DIR$/_01_Employees_txt/_01_Employees_txt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02_Battle/_02_Battle.iml" filepath="$PROJECT_DIR$/_02_Battle/_02_Battle.iml" />
     </modules>
   </component>
 </project>
